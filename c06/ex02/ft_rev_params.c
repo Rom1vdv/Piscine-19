@@ -6,7 +6,7 @@
 /*   By: romvan-d <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/23 18:46:32 by romvan-d          #+#    #+#             */
-/*   Updated: 2021/11/23 20:10:03 by romvan-d         ###   ########.fr       */
+/*   Updated: 2021/11/27 15:11:02 by romvan-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int	main(int argc, char **argv)
 	j = argc - 1;
 	while (argv[j] && j > 0)
 	{
-		while(argv[j][i])
+		while (argv[j][i])
 		{
 			write(1, &argv[j][i], 1);
 			i++;
@@ -30,5 +30,4 @@ int	main(int argc, char **argv)
 		i = 0;
 		write(1, "\n", 1);
 	}
-
 }

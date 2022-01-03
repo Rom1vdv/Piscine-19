@@ -1,25 +1,46 @@
+
+
+#include <stdio.h>
+#include <string.h>
+int main(void)
+{
+	int i;
+
+	i = 0;
+	while (i < 10)
+	{
+		printf("%d\n", ft_range(1, 1)[i]);
+		i++;
+	}	
+}
+#include <stdio.h>
+#include <string.h>
+int main(void)
+{
+	int i;
+
+	i = 0;
+	while (i < 10)
+	{
+		printf("%d\n", ft_range(1, 1)[i]);
+		i++;
+	}	
+}
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_sqrt.c                                          :+:      :+:    :+:   */
+/*   ft_rev_int_tab.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: romvan-d <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/23 13:39:45 by romvan-d          #+#    #+#             */
-/*   Updated: 2021/11/26 20:33:14 by romvan-d         ###   ########.fr       */
+/*   Created: 2021/11/30 18:29:14 by romvan-d          #+#    #+#             */
+/*   Updated: 2021/11/30 18:30:09 by romvan-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_sqrt(int nb)
+void	ft_rev_int_tab(int *tab, int size)
 {
-	int	a;
+	int	i;
 
-	a = 1;
-	if (nb < 0)
-		return (0);
-	while (a * a < nb && a <= 46431)
-		a++;
-	if (a * a == nb)
-		return (a);
-	return (0);
+	i = 0;
 }
