@@ -1,0 +1,5 @@
+Credentials cache: API:256DDA09-B8AE-4E4D-A37E-1958909288F5
+        Principal: romvan-d@S19.BE
+
+  Issued                Expires               Principal
+Nov  9 19:42:44 2021  Nov 10 05:42:38 2021  krbtgt/S19.BE@S19.BE
